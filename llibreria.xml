@@ -17,7 +17,7 @@
       <llançament>1880</llançament>
       <pagines>1185</pagines>
       <preu>38.95€</preu>
-      <Valoracio>4.75</Valoracio>
+      <Valoracio>4.40</Valoracio>
       <estoc>10</estoc>
       <Descripcio>Novela dramática y filosófica que gira en torno al brutal asesinato de un padre cruel y disfuncional. A través de la investigación y el juicio, 
         se exploran los conflictos psicológicos, la moralidad, la culpa y las diferentes crisis espirituales de sus tres hijos.</Descripció>
@@ -35,7 +35,7 @@
       <llançament>2006</llançament>
       <pagines>688</pagines>
       <preu>14.21€</preu>
-      <Valoracio>4.55</Valoracio>
+      <Valoracio>4.48</Valoracio>
       <estoc>6</estoc>
       <Descripcio>Las brumas gobiernan la noche. El lord Legislador domina el mundo. En otros tiempos, un heroe se alzó para salvar la humanidad. Fracasó.
         Desde entonces, el mundo es un erial de ceniza y niebla gobernado por un emperador inmortal conocido como el lord Legislador.</Descripció>
@@ -55,9 +55,9 @@
       <llançament>1997</llançament>
       <pagines>272</pagines>
       <preu>9.09€</preu>
-      <Valoracio>4.1</Valoracio>
+      <Valoracio>4.08</Valoracio>
       <estoc>1</estoc>
-      <Descripcio>¡Qué enseñan los ricos a sus hijos sobre el dinero que los pobres y la clase media no!</Descripció>
+      <Descripcio>What the rich teach their kids about money—that the poor and the middle class do not!</Descripció>
     </llibre>
         
     <llibre codi="GO0449R" preu_adquisicio="12.01€" idioma="ca">
@@ -75,7 +75,7 @@
       <preu>16.95€</preu>
       <Valoracio>4.21</Valoracio>
       <estoc>4</estoc>
-      <Descripcio>Es una novela de ficción distópica sobre una sociedad hipercontrolada por un régimen totalitario bajo la omnipresencia del Gran Hermano.</Descripció>
+      <Descripcio>Novel·la de ficció distòpica sobre una societat hipercontrolada per un règim totalitari sota l'omnipresència del Gran Germà.</Descripció>
     </llibre>
         
     <llibre codi="IA0016R" preu_adquisicio="7.53€" idioma="es">
@@ -109,11 +109,12 @@
       <format>Tapa blanda</format>
       <llançament>1942</llançament>
       <pagines>164</pagines>
-      <preu>12.50€</preu>
+      <preu>11.95€</preu>
       <Valoracio>4.16</Valoracio>
-      <estoc>6</estoc>
-      <Descripcio>Camus discute la cuestión del suicidio y el valor de la vida, presentando a Sísifo como imagen del esfuerzo inútil e incesante del hombre. De este modo plantea la filosofía del absurdo, 
-        según la cual nuestras vidas son insignificantes y no tienen más valor que el de lo que creamos. Siendo el mundo tan fútil, pregunta Camus, ¿qué alternativa hay al suicidio? </Descripció>
+      <estoc>5</estoc>
+      <Descripcio>Camus discuteix la qüestió del suïcidi i el valor de la vida, presentant Sísif com a imatge de l'esforç inútil i incessant de l'home. D'aquesta manera planteja 
+        la filosofia de l'absurd, segons la qual les nostres vides són insignificants i no tenen més valor que el d'allò que creem. Essent el món tan fútil, es pregunta Camus, 
+        quina alternativa hi ha al suïcidi?</Descripció>
     </llibre>
 
     <llibre codi="HM0132J" preu_adquisicio="11.82€" idioma="es">
@@ -132,8 +133,8 @@
       <preu>19,85€</preu>
       <Valoracio>3.98</Valoracio>
       <estoc>6</estoc>
-      <Descripcio>Amb una barreja de malenconia i desassossec, en Toru recorda la Naoko, la parella del seu millor amic Kizuki, que es va suïcidar. Després d'un any distanciats, 
-        es van retrobar i iniciar una relació íntima, però l'aparició d'una altra dona va fer que en Toru experimentés l'enlluernament i el desengany en el sexe, l'amor i la mort. </Descripció>
+      <Descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. 
+        Entre la frágil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez. </Descripció>
     </llibre>
 
     <llibre codi="HM0134J" comissio="35%" idioma="es">
@@ -151,8 +152,46 @@
       <pagines>392</pagines>
       <preu>7.55€</preu>
       <Valoracio>3.98</Valoracio>
-      <estoc>Ilimitat</estoc>
-      <Descripcio>Amb una barreja de malenconia i desassossec, en Toru recorda la Naoko, la parella del seu millor amic Kizuki, que es va suïcidar. Després d'un any distanciats, 
-        es van retrobar i iniciar una relació íntima, però l'aparició d'una altra dona va fer que en Toru experimentés l'enlluernament i el desengany en el sexe, l'amor i la mort. </Descripció>
+      <estoc>Il·limitat</estoc>
+      <Descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. 
+        Entre la frágil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez. </Descripció>
     </llibre>
+
+    <llibre codi="TH3039G" preu_adquisicio="12.54€" idioma="en">
+      <nom>The Magic Mountain</nom>
+      <autors>
+        <autor>Thomas Mann</autor>
+      <autors>
+      <categories>
+        <categoria>Novel·la filosòfica</categoria> 
+        <categoria>Bildungsroman</categoria> 
+      </categories>
+      <format>Tapa dura</format>
+      <llançament>1924</llançament>
+      <pagines>764</pagines>
+      <preu>19.75€</preu>
+      <Valoracio>4.13</Valoracio>
+      <estoc>2</estoc>
+      <Descripcio>It recounts the story of Hans Castorp, a young orphan who, while visiting his cousin in a sanatorium where she is being treated for tuberculosis, 
+        contracts the illness himself and ends up staying for treatment. The secluded sanatorium becomes his entire world while serving as a reflection of pre-war Europe. </Descripció>
+    </llibre>
+
+    <llibre codi="EH4481E" comissio="30%" idioma="es">
+      <nom>El viejo y el mar</nom>
+      <autors>
+        <autor>Ernest Hemingway</autor>
+      <autors>
+      <categories>
+        <categoria>Novel·la curta</categoria> 
+      </categories>
+      <format>eBook</format>
+      <llançament>1952</llançament>
+      <pagines>178</pagines>
+      <preu>4.95€</preu>
+      <Valoracio>3.82</Valoracio>
+      <estoc>Il·limitat</estoc>
+      <Descripcio>Narra la historia de un viejo pescador cubano a quien la suerte parece haber abandonado, y del desafío mayúsculo al que se enfrenta: la batalla despiadada y 
+        sin tregua con un pez gigantesco en las aguas del golfo. </Descripció>
+    </llibre>
+    
 
