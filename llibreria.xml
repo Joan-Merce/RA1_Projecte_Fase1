@@ -4,7 +4,7 @@
   <moneda Divisa="€"/>
   <cataleg ultima_actualitzacio="27-09-2026">
     
-    <llibre codi="FD0141R" preu_adquisicio="27.85" idioma="es">
+    <llibre codi="FD0141R" preu_adquisicio="27.85€" idioma="es">
       <nom>Los hermanos Karamazov</nom>
       <autors>
         <Autor>Fiódor Dostoyevski</autor>
@@ -23,7 +23,7 @@
         se exploran los conflictos psicológicos, la moralidad, la culpa y las diferentes crisis espirituales de sus tres hijos.</Descripció>
     </llibre>
     
-    <llibre codi="BS0492E" preu_adquisicio="10.47" idioma="es">
+    <llibre codi="BS0492E" preu_adquisicio="10.47€" idioma="es">
       <nom>EL imperio final - Nacidos de la bruma</nom>
       <autors>
         <Autor>Brandon Sanderson</autor>
@@ -35,13 +35,13 @@
       <llançament>2006</llançament>
       <pagines>688</pagines>
       <preu>14.21€</preu>
-      <Valoracio>4.8</Valoracio>
+      <Valoracio>4.55</Valoracio>
       <estoc>6</estoc>
       <Descripcio>Las brumas gobiernan la noche. El lord Legislador domina el mundo. En otros tiempos, un heroe se alzó para salvar la humanidad. Fracasó.
         Desde entonces, el mundo es un erial de ceniza y niebla gobernado por un emperador inmortal conocido como el lord Legislador.</Descripció>
     </llibre>
         
-    <llibre codi="RK8594E" preu_adquisicio="5.47" idioma="en">
+    <llibre codi="RK8594E" preu_adquisicio="5.47€" idioma="en">
       <nom>Rich dad, poor dad</nom>
       <autors>
         <autor>Robert Kiyosaki</autor>
@@ -60,7 +60,7 @@
       <Descripcio>¡Qué enseñan los ricos a sus hijos sobre el dinero que los pobres y la clase media no!</Descripció>
     </llibre>
         
-    <llibre codi="GO0449R" preu_adquisicio="12.01" idioma="ca">
+    <llibre codi="GO0449R" preu_adquisicio="12.01€" idioma="ca">
       <nom>1984</nom>
       <autors>
         <autor>George Orwell</autor>
@@ -78,7 +78,7 @@
       <Descripcio>Es una novela de ficción distópica sobre una sociedad hipercontrolada por un régimen totalitario bajo la omnipresencia del Gran Hermano.</Descripció>
     </llibre>
         
-    <llibre codi="IA0016R" preu_adquisicio="7.53" idioma="es">
+    <llibre codi="IA0016R" preu_adquisicio="7.53€" idioma="es">
       <nom>Fundación</nom>
       <autors>
         <autor>Isaac Asimov</autor>
@@ -97,7 +97,7 @@
         un futuro de ruina y destrucción. </Descripció>
     </llibre>
         
-    <llibre codi="AC4538F" preu_adquisicio="7.21" idioma="ca">
+    <llibre codi="AC4538F" preu_adquisicio="7.21€" idioma="ca">
       <nom>El mite de Sísif</nom>
       <autors>
         <autor>Albert Camus</autor>
@@ -114,5 +114,45 @@
       <estoc>6</estoc>
       <Descripcio>Camus discute la cuestión del suicidio y el valor de la vida, presentando a Sísifo como imagen del esfuerzo inútil e incesante del hombre. De este modo plantea la filosofía del absurdo, 
         según la cual nuestras vidas son insignificantes y no tienen más valor que el de lo que creamos. Siendo el mundo tan fútil, pregunta Camus, ¿qué alternativa hay al suicidio? </Descripció>
-      </llibre>
+    </llibre>
+
+    <llibre codi="HM0132J" preu_adquisicio="11.82€" idioma="es">
+      <nom>Tokio Blues</nom>
+      <autors>
+        <autor>Haruki Murakami</autor>
+      <autors>
+      <categories>
+        <categoria>Drama psicològic</categoria>   
+        <categoria>Ficció contemporània</categoria> 
+        <categoria>Novel·la romàntica</categoria> 
+      </categories>
+      <format>Tapa blanda</format>
+      <llançament>1987</llançament>
+      <pagines>392</pagines>
+      <preu>19,85€</preu>
+      <Valoracio>3.98</Valoracio>
+      <estoc>6</estoc>
+      <Descripcio>Amb una barreja de malenconia i desassossec, en Toru recorda la Naoko, la parella del seu millor amic Kizuki, que es va suïcidar. Després d'un any distanciats, 
+        es van retrobar i iniciar una relació íntima, però l'aparició d'una altra dona va fer que en Toru experimentés l'enlluernament i el desengany en el sexe, l'amor i la mort. </Descripció>
+    </llibre>
+
+    <llibre codi="HM0134J" comissio="35%" idioma="es">
+      <nom>Tokio Blues</nom>
+      <autors>
+        <autor>Haruki Murakami</autor>
+      <autors>
+      <categories>
+        <categoria>Drama psicològic</categoria>   
+        <categoria>Ficció contemporània</categoria> 
+        <categoria>Novel·la romàntica</categoria> 
+      </categories>
+      <format>eBook</format>
+      <llançament>1987</llançament>
+      <pagines>392</pagines>
+      <preu>7.55€</preu>
+      <Valoracio>3.98</Valoracio>
+      <estoc>Ilimitat</estoc>
+      <Descripcio>Amb una barreja de malenconia i desassossec, en Toru recorda la Naoko, la parella del seu millor amic Kizuki, que es va suïcidar. Després d'un any distanciats, 
+        es van retrobar i iniciar una relació íntima, però l'aparició d'una altra dona va fer que en Toru experimentés l'enlluernament i el desengany en el sexe, l'amor i la mort. </Descripció>
+    </llibre>
 
