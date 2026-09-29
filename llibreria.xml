@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<llibreria>
+  <nom nomEmpresa="Comercial Literaria Joan Mercé S.L." >Llibreria El Somniatruites</nom>
+  <moneda simbol="€">Euro</moneda>
+  <cataleg ultima_actualitzacio="27-09-2026">
+    <llibre codi="FD0141R" preu_ad="5.47" idioma="es">
+      <nom>Los hermanos Karamazov</nom>
+      <categoria>Novel·la, Suspens
+      <format>
+      <llançament>
+      <pagines
