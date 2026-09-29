@@ -1,11 +1,118 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<llibreria>
+<llibreria xml:lang='ca'>
   <nom nomEmpresa="Comercial Literaria Joan Mercé S.L." >Llibreria El Somniatruites</nom>
-  <moneda simbol="€">Euro</moneda>
+  <moneda Divisa="€"/>
   <cataleg ultima_actualitzacio="27-09-2026">
-    <llibre codi="FD0141R" preu_ad="5.47" idioma="es">
+    
+    <llibre codi="FD0141R" preu_adquisicio="27.85" idioma="es">
       <nom>Los hermanos Karamazov</nom>
-      <categoria>Novel·la, Suspens
-      <format>
-      <llançament>
-      <pagines
+      <autors>
+        <Autor>Fiódor Dostoyevski</autor>
+      <autors>
+      <categories>
+        <categoria>Novel·la</categoria>
+        <categoria>Ficció filosòfica</categoria>
+      </categories>
+      <format>Tapa dura</format>
+      <llançament>1880</llançament>
+      <pagines>1185</pagines>
+      <preu>38.95€</preu>
+      <Valoracio>4.75</Valoracio>
+      <estoc>10</estoc>
+      <Descripcio>Novela dramática y filosófica que gira en torno al brutal asesinato de un padre cruel y disfuncional. A través de la investigación y el juicio, 
+        se exploran los conflictos psicológicos, la moralidad, la culpa y las diferentes crisis espirituales de sus tres hijos.</Descripció>
+    </llibre>
+    
+    <llibre codi="BS0492E" preu_adquisicio="10.47" idioma="es">
+      <nom>EL imperio final - Nacidos de la bruma</nom>
+      <autors>
+        <Autor>Brandon Sanderson</autor>
+      <autors>
+      <categories>
+        <categoria>Literatura fantàstica</categoria>     
+      </categories>
+      <format>Tapa blanda</format>
+      <llançament>2006</llançament>
+      <pagines>688</pagines>
+      <preu>14.21€</preu>
+      <Valoracio>4.8</Valoracio>
+      <estoc>6</estoc>
+      <Descripcio>Las brumas gobiernan la noche. El lord Legislador domina el mundo. En otros tiempos, un heroe se alzó para salvar la humanidad. Fracasó.
+        Desde entonces, el mundo es un erial de ceniza y niebla gobernado por un emperador inmortal conocido como el lord Legislador.</Descripció>
+    </llibre>
+        
+    <llibre codi="RK8594E" preu_adquisicio="5.47" idioma="en">
+      <nom>Rich dad, poor dad</nom>
+      <autors>
+        <autor>Robert Kiyosaki</autor>
+        <autor>Sharon Lechter</autor>
+      <autors>
+      <categories>
+        <categoria>Finances Personals</categoria>   
+        <categoria>No Ficció</categoria>     
+      </categories>
+      <format>Tapa blanda</format>
+      <llançament>1997</llançament>
+      <pagines>272</pagines>
+      <preu>9.09€</preu>
+      <Valoracio>4.1</Valoracio>
+      <estoc>1</estoc>
+      <Descripcio>¡Qué enseñan los ricos a sus hijos sobre el dinero que los pobres y la clase media no!</Descripció>
+    </llibre>
+        
+    <llibre codi="GO0449R" preu_adquisicio="12.01" idioma="ca">
+      <nom>1984</nom>
+      <autors>
+        <autor>George Orwell</autor>
+      <autors>
+      <categories>
+        <categoria>Ficció Distòpica</categoria>   
+        <categoria>Novela política</categoria>     
+      </categories>
+      <format>Tapa dura</format>
+      <llançament>1949</llançament>
+      <pagines>293</pagines>
+      <preu>16.95€</preu>
+      <Valoracio>4.21</Valoracio>
+      <estoc>4</estoc>
+      <Descripcio>Es una novela de ficción distópica sobre una sociedad hipercontrolada por un régimen totalitario bajo la omnipresencia del Gran Hermano.</Descripció>
+    </llibre>
+        
+    <llibre codi="IA0016R" preu_adquisicio="7.53" idioma="es">
+      <nom>Fundación</nom>
+      <autors>
+        <autor>Isaac Asimov</autor>
+      <autors>
+      <categories>
+        <categoria>Ciència Ficció</categoria>     
+      </categories>
+      <format>Tapa blanda</format>
+      <llançament>1949</llançament>
+      <pagines>264</pagines>
+      <preu>12.30€</preu>
+      <Valoracio>4.17</Valoracio>
+      <estoc>6</estoc>
+      <Descripcio>Desde hace doce mil años, la humanidad prospera en una galaxia gobernada por el Imperio desde la majestuosa ciudad de Trántor. 
+        Todos creen que la estabilidad durará para siempre hasta que Hari Seldon predice, mediante su revolucionaria teoría de la psicohistoria, 
+        un futuro de ruina y destrucción. </Descripció>
+    </llibre>
+        
+    <llibre codi="AC4538F" preu_adquisicio="7.21" idioma="ca">
+      <nom>El mite de Sísif</nom>
+      <autors>
+        <autor>Albert Camus</autor>
+      <autors>
+      <categories>
+        <categoria>Filosofia</categoria>   
+        <categoria>Assaig</categoria> 
+      </categories>
+      <format>Tapa blanda</format>
+      <llançament>1942</llançament>
+      <pagines>164</pagines>
+      <preu>12.50€</preu>
+      <Valoracio>4.16</Valoracio>
+      <estoc>6</estoc>
+      <Descripcio>Camus discute la cuestión del suicidio y el valor de la vida, presentando a Sísifo como imagen del esfuerzo inútil e incesante del hombre. De este modo plantea la filosofía del absurdo, 
+        según la cual nuestras vidas son insignificantes y no tienen más valor que el de lo que creamos. Siendo el mundo tan fútil, pregunta Camus, ¿qué alternativa hay al suicidio? </Descripció>
+      </llibre>
+
