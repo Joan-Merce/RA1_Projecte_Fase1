@@ -15,7 +15,7 @@
         <categoria>Ficció filosòfica</categoria>
       </categories>
       <format>Tapa dura</format>
-      <llançament>1880</llançament>
+      <publicacio>1880</publicacio>
       <pagines>1185</pagines>
       <preu>38.95€</preu>
       <Valoracio>4.40</Valoracio>
@@ -34,7 +34,7 @@
         <categoria>Literatura fantàstica</categoria>     
       </categories>
       <format>Tapa tova</format>
-      <llançament>1968</llançament>
+      <publicacio>1968</publicacio>
       <pagines>352</pagines>
       <preu>16,10€</preu>
       <Valoracio>4.46</Valoracio>
@@ -55,7 +55,7 @@
         <categoria>No Ficció</categoria>     
       </categories>
       <format>De Butxaca</format>
-      <llançament>1997</llançament>
+      <publicacio>1997</publicacio>
       <pagines>336</pagines>
       <preu>9.09€</preu>
       <Valoracio>4.08</Valoracio>
@@ -75,7 +75,7 @@
         <categoria>Novela política</categoria>     
       </categories>
       <format>Tapa tova</format>
-      <llançament>1949</llançament>
+      <publicacio>1949</publicacio>
       <pagines>400</pagines>
       <preu>16.95€</preu>
       <Valoracio>4.21</Valoracio>
@@ -93,7 +93,7 @@
         <categoria>Ciència Ficció</categoria>     
       </categories>
       <format>De Butxaca</format>
-      <llançament>1949</llançament>
+      <publicacio>1949</publicacio>
       <pagines>264</pagines>
       <preu>12.30€</preu>
       <Valoracio>4.17</Valoracio>
@@ -114,7 +114,7 @@
         <categoria>Assaig</categoria> 
       </categories>
       <format>Tapa blanda</format>
-      <llançament>1942</llançament>
+      <publicacio>1942</publicacio>
       <pagines>164</pagines>
       <preu>11.95€</preu>
       <Valoracio>4.16</Valoracio>
@@ -136,7 +136,7 @@
         <categoria>Novel·la romàntica</categoria> 
       </categories>
       <format>Tapa blanda</format>
-      <llançament>1987</llançament>
+      <publicacio>1987</publicacio>
       <pagines>392</pagines>
       <preu>19,85€</preu>
       <Valoracio>3.98</Valoracio>
@@ -157,7 +157,7 @@
         <categoria>Novel·la romàntica</categoria> 
       </categories>
       <format>eBook</format>
-      <llançament>1987</llançament>
+      <publicacio>1987</publicacio>
       <pagines>392</pagines>
       <preu>7.55€</preu>
       <Valoracio>3.98</Valoracio>
@@ -177,7 +177,7 @@
         <categoria>Bildungsroman</categoria> 
       </categories>
       <format>Tapa dura</format>
-      <llançament>1924</llançament>
+      <publicacio>1924</publicacio>
       <pagines>764</pagines>
       <preu>19.75€</preu>
       <Valoracio>4.13</Valoracio>
@@ -196,7 +196,7 @@
         <categoria>Novel·la curta</categoria> 
       </categories>
       <format>eBook</format>
-      <llançament>1952</llançament>
+      <publicacio>1952</publicacio>
       <pagines>178</pagines>
       <preu>4.95€</preu>
       <Valoracio>3.82</Valoracio>
