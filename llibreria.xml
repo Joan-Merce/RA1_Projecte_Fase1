@@ -19,26 +19,28 @@
       <preu>38.95€</preu>
       <Valoracio>4.40</Valoracio>
       <estoc>10</estoc>
+      <ISBN>9788484289210</ISBN>
       <Descripcio>Novela dramática y filosófica que gira en torno al brutal asesinato de un padre cruel y disfuncional. A través de la investigación y el juicio, 
         se exploran los conflictos psicológicos, la moralidad, la culpa y las diferentes crisis espirituales de sus tres hijos.</Descripció>
     </llibre>
     
-    <llibre codi="BS0492E" preu_adquisicio="10.47€" idioma="es">
-      <nom>EL imperio final - Nacidos de la bruma</nom>
+    <llibre codi="UK0492E" preu_adquisicio="29.12€" idioma="es">
+      <nom>Los libros de Terramar</nom>
       <autors>
-        <Autor>Brandon Sanderson</autor>
+        <Autor>Ursula K. Le Guin</autor>
       <autors>
       <categories>
         <categoria>Literatura fantàstica</categoria>     
       </categories>
-      <format>Tapa blanda</format>
+      <format>Tapa dura</format>
       <llançament>2006</llançament>
-      <pagines>688</pagines>
-      <preu>14.21€</preu>
-      <Valoracio>4.48</Valoracio>
-      <estoc>6</estoc>
-      <Descripcio>Las brumas gobiernan la noche. El lord Legislador domina el mundo. En otros tiempos, un heroe se alzó para salvar la humanidad. Fracasó.
-        Desde entonces, el mundo es un erial de ceniza y niebla gobernado por un emperador inmortal conocido como el lord Legislador.</Descripció>
+      <pagines>1286</pagines>
+      <preu>47.50€</preu>
+      <Valoracio>4.46</Valoracio>
+      <estoc>3</estoc>
+      <ISBN>9788445008614</ISBN>
+      <Descripcio>En el archipiélago de Terramar hay dragones, magos y espectros, talismanes y poderes. Es un mundo gobernado por la magia y, ante todo, por las
+       palabras: cada cosa posee su nombre verdadero, el designado durante la Creación, cuyo conocimiento otorga a los hechiceros el dominio sobre los elementos y los animales.</Descripció>
     </llibre>
         
     <llibre codi="RK8594E" preu_adquisicio="5.47€" idioma="en">
@@ -51,12 +53,13 @@
         <categoria>Finances Personals</categoria>   
         <categoria>No Ficció</categoria>     
       </categories>
-      <format>Tapa blanda</format>
+      <format>De Butxaca</format>
       <llançament>1997</llançament>
-      <pagines>272</pagines>
+      <pagines>336</pagines>
       <preu>9.09€</preu>
       <Valoracio>4.08</Valoracio>
       <estoc>1</estoc>
+      <ISBN>9781612681139</ISBN>
       <Descripcio>What the rich teach their kids about money—that the poor and the middle class do not!</Descripció>
     </llibre>
         
@@ -69,12 +72,13 @@
         <categoria>Ficció Distòpica</categoria>   
         <categoria>Novela política</categoria>     
       </categories>
-      <format>Tapa dura</format>
+      <format>Tapa tova</format>
       <llançament>1949</llançament>
-      <pagines>293</pagines>
+      <pagines>400</pagines>
       <preu>16.95€</preu>
       <Valoracio>4.21</Valoracio>
       <estoc>4</estoc>
+      <ISBN>9788492672691</ISBN>
       <Descripcio>Novel·la de ficció distòpica sobre una societat hipercontrolada per un règim totalitari sota l'omnipresència del Gran Germà.</Descripció>
     </llibre>
         
@@ -86,12 +90,13 @@
       <categories>
         <categoria>Ciència Ficció</categoria>     
       </categories>
-      <format>Tapa blanda</format>
+      <format>De Butxaca</format>
       <llançament>1949</llançament>
       <pagines>264</pagines>
       <preu>12.30€</preu>
       <Valoracio>4.17</Valoracio>
       <estoc>6</estoc>
+      <ISBN>9788497599245</ISBN>
       <Descripcio>Desde hace doce mil años, la humanidad prospera en una galaxia gobernada por el Imperio desde la majestuosa ciudad de Trántor. 
         Todos creen que la estabilidad durará para siempre hasta que Hari Seldon predice, mediante su revolucionaria teoría de la psicohistoria, 
         un futuro de ruina y destrucción. </Descripció>
@@ -112,6 +117,7 @@
       <preu>11.95€</preu>
       <Valoracio>4.16</Valoracio>
       <estoc>5</estoc>
+      <ISBN>9788419971395</ISBN>
       <Descripcio>Camus discuteix la qüestió del suïcidi i el valor de la vida, presentant Sísif com a imatge de l'esforç inútil i incessant de l'home. D'aquesta manera planteja 
         la filosofia de l'absurd, segons la qual les nostres vides són insignificants i no tenen més valor que el d'allò que creem. Essent el món tan fútil, es pregunta Camus, 
         quina alternativa hi ha al suïcidi?</Descripció>
@@ -133,6 +139,7 @@
       <preu>19,85€</preu>
       <Valoracio>3.98</Valoracio>
       <estoc>6</estoc>
+      <ISBN>9788483103074</ISBN>
       <Descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. 
         Entre la frágil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez. </Descripció>
     </llibre>
@@ -153,6 +160,7 @@
       <preu>7.55€</preu>
       <Valoracio>3.98</Valoracio>
       <estoc>Il·limitat</estoc>
+      <ISBN>9788483836712</ISBN>
       <Descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. 
         Entre la frágil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez. </Descripció>
     </llibre>
@@ -172,6 +180,7 @@
       <preu>19.75€</preu>
       <Valoracio>4.13</Valoracio>
       <estoc>2</estoc>
+      <ISBN>9780749386429</ISBN>
       <Descripcio>It recounts the story of Hans Castorp, a young orphan who, while visiting his cousin in a sanatorium where she is being treated for tuberculosis, 
         contracts the illness himself and ends up staying for treatment. The secluded sanatorium becomes his entire world while serving as a reflection of pre-war Europe. </Descripció>
     </llibre>
@@ -190,6 +199,7 @@
       <preu>4.95€</preu>
       <Valoracio>3.82</Valoracio>
       <estoc>Il·limitat</estoc>
+      <ISBN>9788426409966</ISBN>
       <Descripcio>Narra la historia de un viejo pescador cubano a quien la suerte parece haber abandonado, y del desafío mayúsculo al que se enfrenta: la batalla despiadada y 
         sin tregua con un pez gigantesco en las aguas del golfo. </Descripció>
     </llibre>
