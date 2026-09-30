@@ -24,7 +24,7 @@
         se exploran los conflictos psicológicos, la moralidad, la culpa y las diferentes crisis espirituales de sus tres hijos.</Descripció>
     </llibre>
     
-    <llibre codi="UK0492E" preu_adquisicio="29.12€" idioma="es">
+    <llibre codi="UK0492E" preu_adquisicio="9.12€" idioma="es">
       <nom>Los libros de Terramar</nom>
       <autors>
         <Autor>Ursula K. Le Guin</autor>
@@ -32,13 +32,13 @@
       <categories>
         <categoria>Literatura fantàstica</categoria>     
       </categories>
-      <format>Tapa dura</format>
-      <llançament>2006</llançament>
-      <pagines>1286</pagines>
-      <preu>47.50€</preu>
+      <format>Tapa tova</format>
+      <llançament>1968</llançament>
+      <pagines>352</pagines>
+      <preu>16,10€</preu>
       <Valoracio>4.46</Valoracio>
       <estoc>3</estoc>
-      <ISBN>9788445008614</ISBN>
+      <ISBN>9788445012093</ISBN>
       <Descripcio>En el archipiélago de Terramar hay dragones, magos y espectros, talismanes y poderes. Es un mundo gobernado por la magia y, ante todo, por las
        palabras: cada cosa posee su nombre verdadero, el designado durante la Creación, cuyo conocimiento otorga a los hechiceros el dominio sobre los elementos y los animales.</Descripció>
     </llibre>
