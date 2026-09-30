@@ -2,6 +2,7 @@
 <llibreria xml:lang='ca'>
   <nom nomEmpresa="Comercial Literaria Joan Mercé S.L." >Llibreria El Somniatruites</nom>
   <moneda Divisa="€"/>
+  <direccio>Carrer d'Horta, 63, Horta Guinardó, 08032 Barcelona</direccio>
   <cataleg ultima_actualitzacio="27-09-2026">
     
     <llibre codi="FD0141R" preu_adquisicio="27.85€" idioma="es">
