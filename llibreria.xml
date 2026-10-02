@@ -1,4 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+
+<!DOCTYPE llibreria [
+  <!ELEMENT llibreria (nom, moneda, direccio, cataleg)>
+  <!ELEMENT nom (#PCDATA)>
+  <!ELEMENT moneda EMPTY>
+  <!ELEMENT direccio (#PCDATA)>
+  <!ELEMENT cataleg (llibre)>
+  <!ELEMENT llibre (nom, autors, categories, format, publicacio, pagines, preu, valoracio, estoc, ISBN, descripcio)>
+  <!ELEMENT autors (autor)>
+  <!ELEMENT categories (categoria)>
+]>
+
 <llibreria xml:lang='ca'>
   <nom nomEmpresa="Comercial Literaria Joan Mercé S.L." >Llibreria El Somniatruites</nom>
   <moneda Divisa="€"/>
@@ -8,7 +20,7 @@
     <llibre codi="FD0141R" preu_adquisicio="27.85€" idioma="es">
       <nom>Los hermanos Karamazov</nom>
       <autors>
-        <Autor>Fiódor Dostoyevski</autor>
+        <autor>Fiódor Dostoyevski</autor>
       <autors>
       <categories>
         <categoria>Novel·la</categoria>
@@ -18,17 +30,17 @@
       <publicacio>1880</publicacio>
       <pagines>1185</pagines>
       <preu>38.95€</preu>
-      <Valoracio>4.40</Valoracio>
+      <valoracio>4.40</valoracio>
       <estoc>10</estoc>
       <ISBN>9788484289210</ISBN>
-      <Descripcio>Novela dramática y filosófica que gira en torno al brutal asesinato de un padre cruel y disfuncional. A través de la investigación y el juicio, 
-        se exploran los conflictos psicológicos, la moralidad, la culpa y las diferentes crisis espirituales de sus tres hijos.</Descripció>
+      <descripcio>Novela dramática y filosófica que gira en torno al brutal asesinato de un padre cruel y disfuncional. A través de la investigación y el juicio, 
+        se exploran los conflictos psicológicos, la moralidad, la culpa y las diferentes crisis espirituales de sus tres hijos.</descripcio>
     </llibre>
     
     <llibre codi="UK0492E" preu_adquisicio="9.12€" idioma="es">
       <nom>Los libros de Terramar</nom>
       <autors>
-        <Autor>Ursula K. Le Guin</autor>
+        <autor>Ursula K. Le Guin</autor>
       <autors>
       <categories>
         <categoria>Literatura fantàstica</categoria>     
@@ -37,11 +49,11 @@
       <publicacio>1968</publicacio>
       <pagines>352</pagines>
       <preu>16,10€</preu>
-      <Valoracio>4.46</Valoracio>
+      <valoracio>4.46</valoracio>
       <estoc>3</estoc>
       <ISBN>9788445012093</ISBN>
-      <Descripcio>En el archipiélago de Terramar hay dragones, magos y espectros, talismanes y poderes. Es un mundo gobernado por la magia y, ante todo, por las
-       palabras: cada cosa posee su nombre verdadero, el designado durante la Creación, cuyo conocimiento otorga a los hechiceros el dominio sobre los elementos y los animales.</Descripció>
+      <descripcio>En el archipiélago de Terramar hay dragones, magos y espectros, talismanes y poderes. Es un mundo gobernado por la magia y, ante todo, por las
+       palabras: cada cosa posee su nombre verdadero, el designado durante la Creación, cuyo conocimiento otorga a los hechiceros el dominio sobre los elementos y los animales.</descripcio>
     </llibre>
         
     <llibre codi="RK8594E" preu_adquisicio="5.47€" idioma="en">
@@ -58,11 +70,11 @@
       <publicacio>1997</publicacio>
       <pagines>336</pagines>
       <preu>9.09€</preu>
-      <Valoracio>4.08</Valoracio>
+      <valoracio>4.08</valoracio>
       <estoc>1</estoc>
       <ISBN>9781612681139</ISBN>
-      <Descripcio>Rich Dad Poor Dad is Robert's story of growing up with two dads &amp; the ways in which both men shaped his thoughts about money and investing. 
-        The book explodes the myth that you need to earn a high income to be rich and explains the difference between working for money and having your money work for you.</Descripció>
+      <descripcio>Rich Dad Poor Dad is Robert's story of growing up with two dads &amp; the ways in which both men shaped his thoughts about money and investing. 
+        The book explodes the myth that you need to earn a high income to be rich and explains the difference between working for money and having your money work for you.</descripcio>
     </llibre>
         
     <llibre codi="GO0449R" preu_adquisicio="12.01€" idioma="ca">
@@ -78,10 +90,10 @@
       <publicacio>1949</publicacio>
       <pagines>400</pagines>
       <preu>16.95€</preu>
-      <Valoracio>4.21</Valoracio>
+      <valoracio>4.21</valoracio>
       <estoc>4</estoc>
       <ISBN>9788492672691</ISBN>
-      <Descripcio>Novel·la de ficció distòpica sobre una societat hipercontrolada per un règim totalitari sota l'omnipresència del Gran Germà.</Descripció>
+      <descripcio>Novel·la de ficció distòpica sobre una societat hipercontrolada per un règim totalitari sota l'omnipresència del Gran Germà.</descripcio>
     </llibre>
         
     <llibre codi="IA0016R" preu_adquisicio="7.53€" idioma="es">
@@ -96,12 +108,12 @@
       <publicacio>1949</publicacio>
       <pagines>264</pagines>
       <preu>12.30€</preu>
-      <Valoracio>4.17</Valoracio>
+      <valoracio>4.17</valoracio>
       <estoc>6</estoc>
       <ISBN>9788497599245</ISBN>
-      <Descripcio>Desde hace doce mil años, la humanidad prospera en una galaxia gobernada por el Imperio desde la majestuosa ciudad de Trántor. 
+      <descripcio>Desde hace doce mil años, la humanidad prospera en una galaxia gobernada por el Imperio desde la majestuosa ciudad de Trántor. 
         Todos creen que la estabilidad durará para siempre hasta que Hari Seldon predice, mediante su revolucionaria teoría de la psicohistoria, 
-        un futuro de ruina y destrucción. </Descripció>
+        un futuro de ruina y destrucción. </descripcio>
     </llibre>
         
     <llibre codi="AC4538F" preu_adquisicio="7.21€" idioma="ca">
@@ -117,12 +129,12 @@
       <publicacio>1942</publicacio>
       <pagines>164</pagines>
       <preu>11.95€</preu>
-      <Valoracio>4.16</Valoracio>
+      <valoracio>4.16</valoracio>
       <estoc>5</estoc>
       <ISBN>9788419971395</ISBN>
-      <Descripcio>Camus discuteix la qüestió del suïcidi i el valor de la vida, presentant Sísif com a imatge de l'esforç inútil i incessant de l'home. D'aquesta manera planteja 
+      <descripcio>Camus discuteix la qüestió del suïcidi i el valor de la vida, presentant Sísif com a imatge de l'esforç inútil i incessant de l'home. D'aquesta manera planteja 
         la filosofia de l'absurd, segons la qual les nostres vides són insignificants i no tenen més valor que el d'allò que creem. Essent el món tan fútil, es pregunta Camus, 
-        quina alternativa hi ha al suïcidi?</Descripció>
+        quina alternativa hi ha al suïcidi?</descripcio>
     </llibre>
 
     <llibre codi="HM0132J" preu_adquisicio="11.82€" idioma="es">
@@ -139,11 +151,11 @@
       <publicacio>1987</publicacio>
       <pagines>392</pagines>
       <preu>19,85€</preu>
-      <Valoracio>3.98</Valoracio>
+      <valoracio>3.98</valoracio>
       <estoc>6</estoc>
       <ISBN>9788483103074</ISBN>
-      <Descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. 
-        Entre la frágil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez. </Descripció>
+      <descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. 
+        Entre la frágil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez. </descripcio>
     </llibre>
 
     <llibre codi="HM0132J" comissio="35%" idioma="es">
@@ -160,11 +172,11 @@
       <publicacio>1987</publicacio>
       <pagines>392</pagines>
       <preu>7.55€</preu>
-      <Valoracio>3.98</Valoracio>
+      <valoracio>3.98</valoracio>
       <estoc>Il·limitat</estoc>
       <ISBN>9788483836712</ISBN>
-      <Descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. 
-        Entre la frágil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez. </Descripció>
+      <descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. 
+        Entre la frágil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez. </descripcio>
     </llibre>
 
     <llibre codi="TH3039G" preu_adquisicio="12.54€" idioma="en">
@@ -180,11 +192,11 @@
       <publicacio>1924</publicacio>
       <pagines>764</pagines>
       <preu>19.75€</preu>
-      <Valoracio>4.13</Valoracio>
+      <valoracio>4.13</valoracio>
       <estoc>2</estoc>
       <ISBN>9780749386429</ISBN>
-      <Descripcio>It recounts the story of Hans Castorp, a young orphan who, while visiting his cousin in a sanatorium where she is being treated for tuberculosis, 
-        contracts the illness himself and ends up staying for treatment. The secluded sanatorium becomes his entire world while serving as a reflection of pre-war Europe. </Descripció>
+      <descripcio>It recounts the story of Hans Castorp, a young orphan who, while visiting his cousin in a sanatorium where she is being treated for tuberculosis, 
+        contracts the illness himself and ends up staying for treatment. The secluded sanatorium becomes his entire world while serving as a reflection of pre-war Europe. </descripcio>
     </llibre>
 
     <llibre codi="EH4481E" comissio="30%" idioma="es">
@@ -199,11 +211,13 @@
       <publicacio>1952</publicacio>
       <pagines>178</pagines>
       <preu>4.95€</preu>
-      <Valoracio>3.82</Valoracio>
+      <valoracio>3.82</valoracio>
       <estoc>Il·limitat</estoc>
       <ISBN>9788426409966</ISBN>
-      <Descripcio>Narra la historia de un viejo pescador cubano a quien la suerte parece haber abandonado, y del desafío mayúsculo al que se enfrenta: la batalla despiadada y 
-        sin tregua con un pez gigantesco en las aguas del golfo. </Descripció>
+      <descripcio>Narra la historia de un viejo pescador cubano a quien la suerte parece haber abandonado, y del desafío mayúsculo al que se enfrenta: la batalla despiadada y 
+        sin tregua con un pez gigantesco en las aguas del golfo. </descripcio>
     </llibre>
+  </cataleg>
+</llibreria>
     
 
