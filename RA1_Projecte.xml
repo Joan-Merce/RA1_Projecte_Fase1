@@ -1,169 +1,181 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!--> 
+  Aquest XML representa un catàleg de llibres d'una llibreria fictícia anomenada "La RetroLlibreria". -->
 
+<!-- LLIBRERIA es l'ELEMENT ARREL del document, i conté quatre elements fills: NOM, MONEDA, DIRECCIO i CATALLEG. -->
 <llibreria xml:lang='ca'>
+
+<!--NOM, a més del nom real de la llibreria, conté el nom oficial de l'empresa com a atribut -->
   <nom nomEmpresa="Comercial Literaria Joan Mercé S.L." >La RetroLlibreria</nom>
+
+<!--MONEDA només te l'atribut Divisa, amb el símbol de la moneda -->  
   <moneda Divisa="€"/>
   <direccio>Carrer d'Horta, 63, Horta Guinardó, 08032 Barcelona</direccio>
+<!--Dins de CATALEG hi son els elements LLIBRE, i a més té l'atribut ultima_actualitzacio-->
   <cataleg ultima_actualitzacio="27-09-2026">
     
+  <!-- LLIBRE té vuit elements fills: NOM, AUTORS, CATEGORIES, PUBLICACIO, PREU, VALORACIO, ESTOC i DESCRIPCIO.-->
     <llibre codi="FD0141R" ISBN="9788484289210" format="Tapa_dura" pagines="1185" preu_adquisicio="27.85€" idioma="es">
-  <nom>Los hermanos Karamazov</nom>
-  <autors>
-    <autor>Fiódor Dostoyevski</autor>
-  </autors>
-  <categories>
-    <categoria>Novel·la</categoria>
-    <categoria>Ficció filosòfica</categoria>
-  </categories>
-  <publicacio>1880</publicacio>
-  <preu>38.95€</preu>
-  <valoracio>4.40</valoracio>
-  <estoc>10</estoc>
-  <descripcio>Novela dramática y filosófica que gira en torno al brutal asesinato de un padre cruel y disfuncional. A través de la investigación y el juicio, se exploran los conflictos psicológicos, la moralidad, la culpa y las diferentes crisis espirituales de sus tres hijos.</descripcio>
-</llibre>
+      <nom>Los hermanos Karamazov</nom>
+      <autors>
+        <autor>Fiódor Dostoyevski</autor>
+      </autors>
+      <categories>
+        <categoria>Novel·la</categoria>
+        <categoria>Ficció filosòfica</categoria>
+      </categories>
+      <publicacio>1880</publicacio>
+      <preu>38.95€</preu>
+      <valoracio>4.40</valoracio>
+      <estoc>10</estoc>
+      <descripcio>Novela dramática y filosófica que gira en torno al brutal asesinato de un padre cruel y disfuncional. A través de la investigación y el juicio, se exploran los conflictos psicológicos, la moralidad, la culpa y las diferentes crisis espirituales de sus tres hijos.</descripcio>
+    </llibre>
 
-<llibre codi="UK0492E" ISBN="9788445012093" format="Tapa tova" pagines="352" preu_adquisicio="9.12€" idioma="es">
-  <nom>Los libros de Terramar</nom>
-  <autors>
-    <autor>Ursula K. Le Guin</autor>
-  </autors>
-  <categories>
-    <categoria>Literatura fantàstica</categoria>     
-  </categories>
-  <publicacio>1968</publicacio>
-  <preu>16.10€</preu>
-  <valoracio>4.46</valoracio>
-  <estoc>3</estoc>
-  <descripcio>En el archipiélago de Terramar hay dragones, magos y espectros, talismanes y poderes. Es un mundo gobernado por la magia y, ante todo, por las palabras: cada cosa posee su nombre verdadero, el designado durante la Creación, cuyo conocimiento otorga a los hechiceros el dominio sobre los elementos y los animales.</descripcio>
-</llibre>
-    
-<llibre codi="RK8594E" format="De Butxaca" pagines="336" ISBN="9781612681139" preu_adquisicio="5.47€" idioma="en">
-  <nom>Rich dad, poor dad</nom>
-  <autors>
-    <autor>Robert Kiyosaki</autor>
-    <autor>Sharon Lechter</autor>
-  </autors>
-  <categories>
-    <categoria>Finances Personals</categoria>   
-    <categoria>No Ficció</categoria>     
-  </categories>
-  <publicacio>1997</publicacio>
-  <preu>9.09€</preu>
-  <valoracio>4.08</valoracio>
-  <estoc>1</estoc>
-  <descripcio>Rich Dad Poor Dad is Robert's story of growing up with two dads &amp; the ways in which both men shaped his thoughts about money and investing. The book explodes the myth that you need to earn a high income to be rich and explains the difference between working for money and having your money work for you.</descripcio>
-</llibre>
-    
-<llibre codi="GO0449R" format="Tapa tova" pagines="400" ISBN="9788492672691" preu_adquisicio="12.01€" idioma="ca">
-  <nom>1984</nom>
-  <autors>
-    <autor>George Orwell</autor>
-  </autors>
-  <categories>
-    <categoria>Ficció Distòpica</categoria>   
-    <categoria>Novela política</categoria>     
-  </categories>
-  <publicacio>1949</publicacio>
-  <preu>16.95€</preu>
-  <valoracio>4.21</valoracio>
-  <estoc>4</estoc>
-  <descripcio>Novel·la de ficció distòpica sobre una societat hipercontrolada per un règim totalitari sota l'omnipresència del Gran Germà.</descripcio>
-</llibre>
-    
-<llibre codi="IA0016R" format="De Butxaca" pagines="264" ISBN="9788497599245" preu_adquisicio="7.53€" idioma="es">
-  <nom>Fundación</nom>
-  <autors>
-    <autor>Isaac Asimov</autor>
-  </autors>
-  <categories>
-    <categoria>Ciència Ficció</categoria>     
-  </categories>
-  <publicacio>1949</publicacio>
-  <preu>12.30€</preu>
-  <valoracio>4.17</valoracio>
-  <estoc>6</estoc>
-  <descripcio>Desde hace doce mil años, la humanidad prospera en una galaxia gobernada por el Imperio desde la majestuosa ciudad de Trántor. Todos creen que la estabilidad durará para siempre hasta que Hari Seldon predice, mediante su revolucionaria teoría de la psicohistoria, un futuro de ruina y destrucción.</descripcio>
-</llibre>
-    
-<llibre codi="AC4538F" format="Tapa blanda" pagines="164" ISBN="9788419971395" preu_adquisicio="7.21€" idioma="ca">
-  <nom>El mite de Sísif</nom>
-  <autors>
-    <autor>Albert Camus</autor>
-  </autors>
-  <categories>
-    <categoria>Filosofia</categoria>   
-    <categoria>Assaig</categoria> 
-  </categories>
-  <publicacio>1942</publicacio>
-  <preu>11.95€</preu>
-  <valoracio>4.16</valoracio>
-  <estoc>5</estoc>
-  <descripcio>Camus discuteix la qüestió del suïcidi i el valor de la vida, presentant Sísif com a imatge de l'esforç inútil i incessant de l'home. D'aquesta manera planteja la filosofia de l'absurd, segons la qual les nostres vides són insignificants i no tenen més valor que el d'allò que creem. Essent el món tan fútil, es pregunta Camus, quina alternativa hi ha al suïcidi?</descripcio>
-</llibre>
+    <llibre codi="UK0492E" ISBN="9788445012093" format="Tapa tova" pagines="352" preu_adquisicio="9.12€" idioma="es">
+      <nom>Los libros de Terramar</nom>
+      <autors>
+        <autor>Ursula K. Le Guin</autor>
+      </autors>
+      <categories>
+        <categoria>Literatura fantàstica</categoria>     
+      </categories>
+      <publicacio>1968</publicacio>
+      <preu>16.10€</preu>
+      <valoracio>4.46</valoracio>
+      <estoc>3</estoc>
+      <descripcio>En el archipiélago de Terramar hay dragones, magos y espectros, talismanes y poderes. Es un mundo gobernado por la magia y, ante todo, por las palabras: cada cosa posee su nombre verdadero, el designado durante la Creación, cuyo conocimiento otorga a los hechiceros el dominio sobre los elementos y los animales.</descripcio>
+    </llibre>
+        
+    <llibre codi="RK8594E" format="De Butxaca" pagines="336" ISBN="9781612681139" preu_adquisicio="5.47€" idioma="en">
+      <nom>Rich dad, poor dad</nom>
+      <autors>
+        <autor>Robert Kiyosaki</autor>
+        <autor>Sharon Lechter</autor>
+      </autors>
+      <categories>
+        <categoria>Finances Personals</categoria>   
+        <categoria>No Ficció</categoria>     
+      </categories>
+      <publicacio>1997</publicacio>
+      <preu>9.09€</preu>
+      <valoracio>4.08</valoracio>
+      <estoc>1</estoc>
+      <!--En aquesta descripció apareix &amp;, que serveix per representar el símbol de &-->
+      <descripcio>Rich Dad Poor Dad is Robert's story of growing up with two dads &amp; the ways in which both men shaped his thoughts about money and investing. The book explodes the myth that you need to earn a high income to be rich and explains the difference between working for money and having your money work for you.</descripcio>
+    </llibre>
+        
+    <llibre codi="GO0449R" format="Tapa tova" pagines="400" ISBN="9788492672691" preu_adquisicio="12.01€" idioma="ca">
+      <nom>1984</nom>
+      <autors>
+        <autor>George Orwell</autor>
+      </autors>
+      <categories>
+        <categoria>Ficció Distòpica</categoria>   
+        <categoria>Novela política</categoria>     
+      </categories>
+      <publicacio>1949</publicacio>
+      <preu>16.95€</preu>
+      <valoracio>4.21</valoracio>
+      <estoc>4</estoc>
+      <descripcio>Novel·la de ficció distòpica sobre una societat hipercontrolada per un règim totalitari sota l'omnipresència del Gran Germà.</descripcio>
+    </llibre>
+        
+    <llibre codi="IA0016R" format="De Butxaca" pagines="264" ISBN="9788497599245" preu_adquisicio="7.53€" idioma="es">
+      <nom>Fundación</nom>
+      <autors>
+        <autor>Isaac Asimov</autor>
+      </autors>
+      <categories>
+        <categoria>Ciència Ficció</categoria>     
+      </categories>
+      <publicacio>1949</publicacio>
+      <preu>12.30€</preu>
+      <valoracio>4.17</valoracio>
+      <estoc>6</estoc>
+      <descripcio>Desde hace doce mil años, la humanidad prospera en una galaxia gobernada por el Imperio desde la majestuosa ciudad de Trántor. Todos creen que la estabilidad durará para siempre hasta que Hari Seldon predice, mediante su revolucionaria teoría de la psicohistoria, un futuro de ruina y destrucción.</descripcio>
+    </llibre>
+        
+    <llibre codi="AC4538F" format="Tapa blanda" pagines="164" ISBN="9788419971395" preu_adquisicio="7.21€" idioma="ca">
+      <nom>El mite de Sísif</nom>
+      <autors>
+        <autor>Albert Camus</autor>
+      </autors>
+      <categories>
+        <categoria>Filosofia</categoria>   
+        <categoria>Assaig</categoria> 
+      </categories>
+      <publicacio>1942</publicacio>
+      <preu>11.95€</preu>
+      <valoracio>4.16</valoracio>
+      <estoc>5</estoc>
+      <descripcio>Camus discuteix la qüestió del suïcidi i el valor de la vida, presentant Sísif com a imatge de l'esforç inútil i incessant de l'home. D'aquesta manera planteja la filosofia de l'absurd, segons la qual les nostres vides són insignificants i no tenen més valor que el d'allò que creem. Essent el món tan fútil, es pregunta Camus, quina alternativa hi ha al suïcidi?</descripcio>
+    </llibre>
 
-<llibre codi="HM0132J" format="Tapa blanda" pagines="392" ISBN="9788483103074" preu_adquisicio="11.82€" idioma="es">
-  <nom>Tokio Blues</nom>
-  <autors>
-    <autor>Haruki Murakami</autor>
-  </autors>
-  <categories>
-    <categoria>Drama psicològic</categoria>   
-    <categoria>Ficció contemporània</categoria> 
-    <categoria>Novel·la romàntica</categoria> 
-  </categories>
-  <publicacio>1987</publicacio>
-  <preu>19.85</preu>
-  <valoracio>3.98</valoracio>
-  <estoc>6</estoc>
-  <descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. Entre la frágil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez.</descripcio>
-</llibre>
+    <llibre codi="HM0132J" format="Tapa blanda" pagines="392" ISBN="9788483103074" preu_adquisicio="11.82€" idioma="es">
+      <nom>Tokio Blues</nom>
+      <autors>
+        <autor>Haruki Murakami</autor>
+      </autors>
+      <categories>
+        <categoria>Drama psicològic</categoria>   
+        <categoria>Ficció contemporània</categoria> 
+        <categoria>Novel·la romàntica</categoria> 
+      </categories>
+      <publicacio>1987</publicacio>
+      <preu>19.85</preu>
+      <valoracio>3.98</valoracio>
+      <estoc>6</estoc>
+      <descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. Entre la frágil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez.</descripcio>
+    </llibre>
 
-<llibre codi="HM0132J" format="eBook" pagines="392" ISBN="9788483836712" comissio="35%" idioma="es">
-  <nom>Tokio Blues</nom>
-  <autors>
-    <autor>Haruki Murakami</autor>
-  </autors>
-  <categories>
-    <categoria>Drama psicològic</categoria>   
-    <categoria>Ficció contemporània</categoria> 
-    <categoria>Novel·la romàntica</categoria> 
-  </categories>
-  <publicacio>1987</publicacio>
-  <preu>7.55€</preu>
-  <valoracio>3.98</valoracio>
-  <estoc>Il·limitat</estoc>
-  <descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. Entre la fràgil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez.</descripcio>
-</llibre>
+    <!--Aquest és un llibre té l'atribut COMISSIO, degut a que es format eBook. Sustitueix el preu d'adquisició-->
+    <llibre codi="HM0132J" format="eBook" pagines="392" ISBN="9788483836712" comissio="35%" idioma="es">
+      <nom>Tokio Blues</nom>
+      <autors>
+        <autor>Haruki Murakami</autor>
+      </autors>
+      <categories>
+        <categoria>Drama psicològic</categoria>   
+        <categoria>Ficció contemporània</categoria> 
+        <categoria>Novel·la romàntica</categoria> 
+      </categories>
+      <publicacio>1987</publicacio>
+      <preu>7.55€</preu>
+      <valoracio>3.98</valoracio>
+      <estoc>Il·limitat</estoc>
+      <descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. Entre la fràgil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez.</descripcio>
+    </llibre>
 
-<llibre codi="TH3039G" format="Tapa dura" pagines="764" ISBN="9780749386429" preu_adquisicio="12.54€" idioma="en">
-  <nom>The Magic Mountain</nom>
-  <autors>
-    <autor>Thomas Mann</autor>
-  </autors>
-  <categories>
-    <categoria>Novel·la filosòfica</categoria> 
-    <categoria>Bildungsroman</categoria> 
-  </categories>
-  <publicacio>1924</publicacio>
-  <preu>19.75€</preu>
-  <valoracio>4.13</valoracio>
-  <estoc>2</estoc>
-  <descripcio>It recounts the story of Hans Castorp, a young orphan who, while visiting his cousin in a sanatorium where she is being treated for tuberculosis, contracts the illness himself and ends up staying for treatment. The secluded sanatorium becomes his entire world while serving as a reflection of pre-war Europe.</descripcio>
-</llibre>
+    <llibre codi="TH3039G" format="Tapa dura" pagines="764" ISBN="9780749386429" preu_adquisicio="12.54€" idioma="en">
+      <nom>The Magic Mountain</nom>
+      <autors>
+        <autor>Thomas Mann</autor>
+      </autors>
+      <categories>
+        <categoria>Novel·la filosòfica</categoria> 
+        <categoria>Bildungsroman</categoria> 
+      </categories>
+      <publicacio>1924</publicacio>
+      <preu>19.75€</preu>
+      <valoracio>4.13</valoracio>
+      <estoc>2</estoc>
+      <descripcio>It recounts the story of Hans Castorp, a young orphan who, while visiting his cousin in a sanatorium where she is being treated for tuberculosis, contracts the illness himself and ends up staying for treatment. The secluded sanatorium becomes his entire world while serving as a reflection of pre-war Europe.</descripcio>
+    </llibre>
 
-<llibre codi="EH4481E" format="eBook" pagines="178" ISBN="9788426409966" comissio="30%" idioma="es">
-  <nom>El viejo y el mar</nom>
-  <autors>
-    <autor>Ernest Hemingway</autor>
-  </autors>
-  <categories>
-    <categoria>Novel·la curta</categoria> 
-  </categories>
-  <publicacio>1952</publicacio>
-  <preu>4.95€</preu>
-  <valoracio>3.82</valoracio>
-  <estoc>Il·limitat</estoc>
-  <descripcio>Narra la historia de un viejo pescador cubano a quien la suerte parece haber abandonado, y del desafío mayúsculo al que se enfrenta: la batalla despiadada y sin tregua con un pez gigantesco en las aguas del golfo.</descripcio>
-</llibre>
-
+    <!---->
+    <llibre codi="EH4481E" format="eBook" pagines="178" ISBN="9788426409966" comissio="30%" idioma="es">
+      <nom>El viejo y el mar</nom>
+      <autors>
+        <autor>Ernest Hemingway</autor>
+      </autors>
+      <categories>
+        <categoria>Novel·la curta</categoria> 
+      </categories>
+      <publicacio>1952</publicacio>
+      <preu>4.95€</preu>
+      <valoracio>3.82</valoracio>
+      <estoc>Il·limitat</estoc>
+      <descripcio>Narra la historia de un viejo pescador cubano a quien la suerte parece haber abandonado, y del desafío mayúsculo al que se enfrenta: la batalla despiadada y sin tregua con un pez gigantesco en las aguas del golfo.</descripcio>
+    </llibre>
+  </cataleg>
 </llibreria>
