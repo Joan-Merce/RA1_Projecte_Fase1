@@ -15,7 +15,7 @@
   <cataleg ultima_actualitzacio="27-09-2026">
     
   <!-- LLIBRE té vuit elements fills: NOM, AUTORS, CATEGORIES, PUBLICACIO, PREU, VALORACIO, ESTOC i DESCRIPCIO.-->
-    <llibre codi="FD0141R" ISBN="9788484289210" format="Tapa_dura" pagines="1185" preu_adquisicio="27.85€" idioma="es">
+    <llibre ISBN="9788484289210" format="Tapa_dura" pagines="1185" preu_adquisicio="27.85€" idioma="es">
       <nom>Los hermanos Karamazov</nom>
       <autors>
         <autor>Fiódor Dostoyevski</autor>
@@ -31,7 +31,7 @@
       <descripcio>Novela dramática y filosófica que gira en torno al brutal asesinato de un padre cruel y disfuncional. A través de la investigación y el juicio, se exploran los conflictos psicológicos, la moralidad, la culpa y las diferentes crisis espirituales de sus tres hijos.</descripcio>
     </llibre>
 
-    <llibre codi="UK0492E" ISBN="9788445012093" format="Tapa tova" pagines="352" preu_adquisicio="9.12€" idioma="es">
+    <llibre ISBN="9788445012093" format="Tapa tova" pagines="352" preu_adquisicio="9.12€" idioma="es">
       <nom>Los libros de Terramar</nom>
       <autors>
         <autor>Ursula K. Le Guin</autor>
@@ -46,7 +46,7 @@
       <descripcio>En el archipiélago de Terramar hay dragones, magos y espectros, talismanes y poderes. Es un mundo gobernado por la magia y, ante todo, por las palabras: cada cosa posee su nombre verdadero, el designado durante la Creación, cuyo conocimiento otorga a los hechiceros el dominio sobre los elementos y los animales.</descripcio>
     </llibre>
         
-    <llibre codi="RK8594E" format="De Butxaca" pagines="336" ISBN="9781612681139" preu_adquisicio="5.47€" idioma="en">
+    <llibre ISBN="9781612681139" format="De Butxaca" pagines="336" preu_adquisicio="5.47€" idioma="en">
       <nom>Rich dad, poor dad</nom>
       <autors>
         <autor>Robert Kiyosaki</autor>
@@ -64,7 +64,7 @@
       <descripcio>Rich Dad Poor Dad is Robert's story of growing up with two dads &amp; the ways in which both men shaped his thoughts about money and investing. The book explodes the myth that you need to earn a high income to be rich and explains the difference between working for money and having your money work for you.</descripcio>
     </llibre>
         
-    <llibre codi="GO0449R" format="Tapa tova" pagines="400" ISBN="9788492672691" preu_adquisicio="12.01€" idioma="ca">
+    <llibre ISBN="9788492672691" format="Tapa tova" pagines="400" preu_adquisicio="12.01€" idioma="ca">
       <nom>1984</nom>
       <autors>
         <autor>George Orwell</autor>
@@ -80,7 +80,7 @@
       <descripcio>Novel·la de ficció distòpica sobre una societat hipercontrolada per un règim totalitari sota l'omnipresència del Gran Germà.</descripcio>
     </llibre>
         
-    <llibre codi="IA0016R" format="De Butxaca" pagines="264" ISBN="9788497599245" preu_adquisicio="7.53€" idioma="es">
+    <llibre ISBN="9788497599245" format="De Butxaca" pagines="264" preu_adquisicio="7.53€" idioma="es">
       <nom>Fundación</nom>
       <autors>
         <autor>Isaac Asimov</autor>
@@ -95,7 +95,7 @@
       <descripcio>Desde hace doce mil años, la humanidad prospera en una galaxia gobernada por el Imperio desde la majestuosa ciudad de Trántor. Todos creen que la estabilidad durará para siempre hasta que Hari Seldon predice, mediante su revolucionaria teoría de la psicohistoria, un futuro de ruina y destrucción.</descripcio>
     </llibre>
         
-    <llibre codi="AC4538F" format="Tapa blanda" pagines="164" ISBN="9788419971395" preu_adquisicio="7.21€" idioma="ca">
+    <llibre ISBN="9788419971395" format="Tapa blanda" pagines="164" preu_adquisicio="7.21€" idioma="ca">
       <nom>El mite de Sísif</nom>
       <autors>
         <autor>Albert Camus</autor>
@@ -111,7 +111,7 @@
       <descripcio>Camus discuteix la qüestió del suïcidi i el valor de la vida, presentant Sísif com a imatge de l'esforç inútil i incessant de l'home. D'aquesta manera planteja la filosofia de l'absurd, segons la qual les nostres vides són insignificants i no tenen més valor que el d'allò que creem. Essent el món tan fútil, es pregunta Camus, quina alternativa hi ha al suïcidi?</descripcio>
     </llibre>
 
-    <llibre codi="HM0132J" format="Tapa blanda" pagines="392" ISBN="9788483103074" preu_adquisicio="11.82€" idioma="es">
+    <llibre ISBN="9788483103074" format="Tapa blanda" pagines="392" preu_adquisicio="11.82€" idioma="es">
       <nom>Tokio Blues</nom>
       <autors>
         <autor>Haruki Murakami</autor>
@@ -129,7 +129,7 @@
     </llibre>
 
     <!--Aquest és un llibre té l'atribut COMISSIO, degut a que es format eBook. Sustitueix el preu d'adquisició-->
-    <llibre codi="HM0132J" format="eBook" pagines="392" ISBN="9788483836712" comissio="35%" idioma="es">
+    <llibre ISBN="9788483836712" format="eBook" pagines="392" comissio="35%" idioma="es">
       <nom>Tokio Blues</nom>
       <autors>
         <autor>Haruki Murakami</autor>
@@ -146,7 +146,7 @@
       <descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. Entre la fràgil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez.</descripcio>
     </llibre>
 
-    <llibre codi="TH3039G" format="Tapa dura" pagines="764" ISBN="9780749386429" preu_adquisicio="12.54€" idioma="en">
+    <llibre ISBN="9780749386429" format="Tapa dura" pagines="764" preu_adquisicio="12.54€" idioma="en">
       <nom>The Magic Mountain</nom>
       <autors>
         <autor>Thomas Mann</autor>
@@ -163,7 +163,7 @@
     </llibre>
 
     <!---->
-    <llibre codi="EH4481E" format="eBook" pagines="178" ISBN="9788426409966" comissio="30%" idioma="es">
+    <llibre ISBN="9788426409966" format="eBook" pagines="178" comissio="30%" idioma="es">
       <nom>El viejo y el mar</nom>
       <autors>
         <autor>Ernest Hemingway</autor>
