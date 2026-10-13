@@ -1,0 +1,37 @@
+<!ENTITY empresa "Comercial Literaria Joan Mercé S.L.">
+<!ELEMENT llibreria (nomLlibreria, moneda, direccio, cataleg)>
+<!ATTLIST llibreria 
+            xml:lang NMTOKEN #REQUIRED>
+<!ELEMENT nomLlibreria (#PCDATA)>
+<!ATTLIST nomLlibreria 
+            nomEmpresa CDATA #REQUIRED>
+<!ELEMENT moneda EMPTY>
+<!ATTLIST moneda
+            Divisa CDATA #FIXED "€">
+<!ELEMENT direccio (#PCDATA)>
+<!ELEMENT cataleg (llibre+)>
+<!ATTLIST cataleg
+            ultimaActualitzacio CDATA #REQUIRED>
+<!ELEMENT llibre (nom, autors, categories, publicacio, preu, valoracio, estoc, descripcio)>
+<!ATTLIST llibre
+            codi ID #REQUIRED
+            ISBN NMTOKEN #REQUIRED
+            format (Tapa_dura | Tapa_tova | De_Butxaca | eBook) #REQUIRED
+            pagines CDATA #REQUIRED
+            preu_adquisicio CDATA #IMPLIED
+            comissio CDATA #IMPLIED
+            idioma (en | ca | es) #REQUIRED
+            recomanat IDREF #IMPLIED>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT autors (autor+)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT categories (categoria+)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT publicacio (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+<!ELEMENT valoracio (#PCDATA)>
+<!ELEMENT estoc (#PCDATA)>
+<!ATTLIST estoc
+            tipus CDATA #IMPLIED>
+<!ELEMENT descripcio (#PCDATA)>

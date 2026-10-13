@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <!-- Aquest XML representa un catàleg de llibres d'una llibreria fictícia anomenada "La RetroLlibreria". -->
 
+<!DOCTYPE llibreria SYSTEM "RA1_Projecte.dtd">
 <!-- LLIBRERIA es l'ELEMENT ARREL del document, i conté quatre elements fills: NOM, MONEDA, DIRECCIO i CATALLEG. -->
 <llibreria xml:lang='ca'>
 
 <!--NOM, a més del nom real de la llibreria, conté el nom oficial de l'empresa com a atribut -->
-  <nom nomEmpresa="Comercial Literaria Joan Mercé S.L." >La RetroLlibreria</nom>
+  <nomLlibreria nomEmpresa="&empresa;">La RetroLlibreria</nomLlibreria>
 
 <!--MONEDA només te l'atribut Divisa, amb el símbol de la moneda -->  
   <moneda Divisa="€"/>
@@ -14,7 +15,7 @@
   <cataleg ultimaActualitzacio="27/09/2026">
     
   <!-- LLIBRE té vuit elements fills: NOM, AUTORS, CATEGORIES, PUBLICACIO, PREU, VALORACIO, ESTOC i DESCRIPCIO.-->
-    <llibre codi="LRL-48291-DU" ISBN="9788484289210" format="Tapa_dura" pagines="1185" preu_adquisicio="27.85" idioma="es">
+    <llibre codi="LRL-48291-DU" ISBN="9788484289210" format="Tapa_dura" pagines="1185" preu_adquisicio="27.85" idioma="es" recomanat="LRL-73108-DU">
       <nom>Los hermanos Karamazov</nom>
       <autors>
         <autor>Fiódor Dostoyevski</autor>
@@ -30,7 +31,7 @@
       <descripcio>Novela dramática y filosófica que gira en torno al brutal asesinato de un padre cruel y disfuncional. A través de la investigación y el juicio, se exploran los conflictos psicológicos, la moralidad, la culpa y las diferentes crisis espirituales de sus tres hijos.</descripcio>
     </llibre>
 
-    <llibre codi="LRL-15907-TO" ISBN="9788445012093" format="Tapa_tova" pagines="352" preu_adquisicio="9.12" idioma="es">
+    <llibre codi="LRL-15907-TO" ISBN="9788445012093" format="Tapa_tova" pagines="352" preu_adquisicio="9.12" idioma="es" recomanat="LRL-51760-DB">
       <nom>Los libros de Terramar</nom>
       <autors>
         <autor>Ursula K. Le Guin</autor>
@@ -63,7 +64,7 @@
       <descripcio>Rich Dad Poor Dad is Robert's story of growing up with two dads &amp; the ways in which both men shaped his thoughts about money and investing. The book explodes the myth that you need to earn a high income to be rich and explains the difference between working for money and having your money work for you.</descripcio>
     </llibre>
         
-    <llibre codi="LRL-92814-TO" ISBN="9788492672691" format="Tapa_tova" pagines="400" preu_adquisicio="12.01" idioma="ca">
+    <llibre codi="LRL-92814-TO" ISBN="9788492672691" format="Tapa_tova" pagines="400" preu_adquisicio="12.01" idioma="ca" recomanat="LRL-15907-TO">
       <nom>1984</nom>
       <autors>
         <autor>George Orwell</autor>
@@ -79,7 +80,7 @@
       <descripcio>Novel·la de ficció distòpica sobre una societat hipercontrolada per un règim totalitari sota l'omnipresència del Gran Germà.</descripcio>
     </llibre>
         
-    <llibre codi="LRL-51760-DB" ISBN="9788497599245" format="De_Butxaca" pagines="264" preu_adquisicio="7.53" idioma="es">
+    <llibre codi="LRL-51760-DB" ISBN="9788497599245" format="De_Butxaca" pagines="264" preu_adquisicio="7.53" idioma="es" recomanat="LRL-92814-TO">
       <nom>Fundación</nom>
       <autors>
         <autor>Isaac Asimov</autor>
@@ -145,7 +146,7 @@
       <descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. Entre la fràgil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez.</descripcio>
     </llibre>
 
-    <llibre codi="LRL-73108-DU" ISBN="9780749386429" format="Tapa_dura" pagines="764" preu_adquisicio="12.54" idioma="en">
+    <llibre codi="LRL-73108-DU" ISBN="9780749386429" format="Tapa_dura" pagines="764" preu_adquisicio="12.54" idioma="en" recomanat="LRL-48291-DU">
       <nom>The Magic Mountain</nom>
       <autors>
         <autor>Thomas Mann</autor>
