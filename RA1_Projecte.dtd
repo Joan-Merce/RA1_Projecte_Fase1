@@ -1,4 +1,8 @@
 <!ENTITY empresa "Comercial Literaria Joan Mercé S.L.">
+<!ENTITY du "Tapa_dura">
+<!ENTITY to "Tapa_tova">
+<!ENTITY bu "De_Butxaca">
+<!ENTITY eb "eBook">
 
 <!ELEMENT llibreria (nomLlibreria, moneda, direccio, cataleg)>
 <!ATTLIST llibreria 
