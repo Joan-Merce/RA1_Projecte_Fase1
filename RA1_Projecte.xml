@@ -15,7 +15,7 @@
   <cataleg ultimaActualitzacio="27/09/2026">
     
   <!-- LLIBRE té vuit elements fills: NOM, AUTORS, CATEGORIES, PUBLICACIO, PREU, VALORACIO, ESTOC i DESCRIPCIO.-->
-    <llibre codi="LRL-48291-DU" ISBN="9788484289210" format="&du;" pagines="1185" preu_adquisicio="27.85" idioma="es" recomanat="LRL-73108-DU" recomanat="LRL-64022-TO">
+    <llibre codi="LRL-48291-DU" ISBN="9788484289210" format="&du;" pagines="1185" preu_adquisicio="27.85" idioma="es" recomanat="LRL-73108-DU LRL-64022-TO">
       <nom>Los hermanos Karamazov</nom>
       <autors>
         <autor>Fiódor Dostoyevski</autor>
@@ -81,7 +81,7 @@
       <descripcio>Novel·la de ficció distòpica sobre una societat hipercontrolada per un règim totalitari sota l'omnipresència del Gran Germà.</descripcio>
     </llibre>
         
-    <llibre codi="LRL-51760-DB" ISBN="9788497599245" format="&bu;" pagines="264" preu_adquisicio="7.53" idioma="es" recomanat="LRL-92814-TO" recomanat="LRL-15907-TO">
+    <llibre codi="LRL-51760-DB" ISBN="9788497599245" format="&bu;" pagines="264" preu_adquisicio="7.53" idioma="es" recomanat="LRL-92814-TO LRL-15907-TO">
       <nom>Fundación</nom>
       <autors>
         <autor>Isaac Asimov</autor>
@@ -148,7 +148,7 @@
       <descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. Entre la fràgil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez.</descripcio>
     </llibre>
 
-    <llibre codi="LRL-73108-DU" ISBN="9780749386429" format="&du;" pagines="764" preu_adquisicio="12.54" idioma="en" recomanat="LRL-48291-DU" recomanat="LRL-64022-TO">
+    <llibre codi="LRL-73108-DU" ISBN="9780749386429" format="&du;" pagines="764" preu_adquisicio="12.54" idioma="en" recomanat="LRL-48291-DU LRL-64022-TO">
       <nom>The Magic Mountain</nom>
       <autors>
         <autor>Thomas Mann</autor>
