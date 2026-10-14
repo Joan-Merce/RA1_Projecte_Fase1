@@ -1,4 +1,5 @@
 <!ENTITY empresa "Comercial Literaria Joan Mercé S.L.">
+
 <!ELEMENT llibreria (nomLlibreria, moneda, direccio, cataleg)>
 <!ATTLIST llibreria 
             xml:lang NMTOKEN #REQUIRED>
@@ -7,12 +8,12 @@
             nomEmpresa CDATA #REQUIRED>
 <!ELEMENT moneda EMPTY>
 <!ATTLIST moneda
-            Divisa CDATA #FIXED "€">
+            divisa CDATA #FIXED "€">
 <!ELEMENT direccio (#PCDATA)>
 <!ELEMENT cataleg (llibre+)>
 <!ATTLIST cataleg
             ultimaActualitzacio CDATA #REQUIRED>
-<!ELEMENT llibre (nom, autors, categories, publicacio, preu, valoracio, estoc, descripcio)>
+<!ELEMENT llibre (nom, autors, categories, publicacio, preu, valoracio, estoc, saga?, descripcio)>
 <!ATTLIST llibre
             codi ID #REQUIRED
             ISBN NMTOKEN #REQUIRED
@@ -34,4 +35,5 @@
 <!ELEMENT estoc (#PCDATA)>
 <!ATTLIST estoc
             tipus CDATA #IMPLIED>
+<!ELEMENT saga (#PCDATA)>
 <!ELEMENT descripcio (#PCDATA)>
