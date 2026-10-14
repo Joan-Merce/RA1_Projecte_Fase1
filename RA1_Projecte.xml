@@ -9,7 +9,7 @@
   <nomLlibreria nomEmpresa="&empresa;">La RetroLlibreria</nomLlibreria>
 
 <!--MONEDA només te l'atribut Divisa, amb el símbol de la moneda -->  
-  <moneda Divisa="€"/>
+  <moneda divisa="€"/>
   <direccio>Carrer d'Horta, 63, Horta Guinardó, 08032 Barcelona</direccio>
 <!--Dins de CATALEG hi son els elements LLIBRE, i a més té l'atribut ultima_actualitzacio-->
   <cataleg ultimaActualitzacio="27/09/2026">
@@ -43,6 +43,7 @@
       <preu>16.10</preu>
       <valoracio>4.46</valoracio>
       <estoc>3</estoc>
+      <saga>Ciclo de Terramar</saga>
       <descripcio>En el archipiélago de Terramar hay dragones, magos y espectros, talismanes y poderes. Es un mundo gobernado por la magia y, ante todo, por las palabras: cada cosa posee su nombre verdadero, el designado durante la Creación, cuyo conocimiento otorga a los hechiceros el dominio sobre los elementos y los animales.</descripcio>
     </llibre>
         
@@ -92,6 +93,7 @@
       <preu>12.30</preu>
       <valoracio>4.17</valoracio>
       <estoc>6</estoc>
+      <saga>Ciclo de la Fundación</saga>
       <descripcio>Desde hace doce mil años, la humanidad prospera en una galaxia gobernada por el Imperio desde la majestuosa ciudad de Trántor. Todos creen que la estabilidad durará para siempre hasta que Hari Seldon predice, mediante su revolucionaria teoría de la psicohistoria, un futuro de ruina y destrucción.</descripcio>
     </llibre>
         
