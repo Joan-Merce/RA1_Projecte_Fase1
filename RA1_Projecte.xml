@@ -15,7 +15,7 @@
   <cataleg ultimaActualitzacio="27/09/2026">
     
   <!-- LLIBRE té vuit elements fills: NOM, AUTORS, CATEGORIES, PUBLICACIO, PREU, VALORACIO, ESTOC i DESCRIPCIO.-->
-    <llibre codi="LRL-48291-DU" ISBN="9788484289210" format="Tapa_dura" pagines="1185" preu_adquisicio="27.85" idioma="es" recomanat="LRL-73108-DU" codi="LRL-64022-TO">
+    <llibre codi="LRL-48291-DU" ISBN="9788484289210" format="Tapa_dura" pagines="1185" preu_adquisicio="27.85" idioma="es" recomanat="LRL-73108-DU" recomanat="LRL-64022-TO">
       <nom>Los hermanos Karamazov</nom>
       <autors>
         <autor>Fiódor Dostoyevski</autor>
@@ -81,7 +81,7 @@
       <descripcio>Novel·la de ficció distòpica sobre una societat hipercontrolada per un règim totalitari sota l'omnipresència del Gran Germà.</descripcio>
     </llibre>
         
-    <llibre codi="LRL-51760-DB" ISBN="9788497599245" format="De_Butxaca" pagines="264" preu_adquisicio="7.53" idioma="es" recomanat="LRL-92814-TO" codi="LRL-15907-TO">
+    <llibre codi="LRL-51760-DB" ISBN="9788497599245" format="De_Butxaca" pagines="264" preu_adquisicio="7.53" idioma="es" recomanat="LRL-92814-TO" recomanat="LRL-15907-TO">
       <nom>Fundación</nom>
       <autors>
         <autor>Isaac Asimov</autor>
@@ -97,7 +97,7 @@
       <descripcio>Desde hace doce mil años, la humanidad prospera en una galaxia gobernada por el Imperio desde la majestuosa ciudad de Trántor. Todos creen que la estabilidad durará para siempre hasta que Hari Seldon predice, mediante su revolucionaria teoría de la psicohistoria, un futuro de ruina y destrucción.</descripcio>
     </llibre>
         
-    <llibre codi="LRL-64022-TO" ISBN="9788419971395" format="Tapa_tova" pagines="164" preu_adquisicio="7.21" idioma="ca" codi="LRL-48291-DU">
+    <llibre codi="LRL-64022-TO" ISBN="9788419971395" format="Tapa_tova" pagines="164" preu_adquisicio="7.21" idioma="ca" recomanat="LRL-48291-DU">
       <nom>El mite de Sísif</nom>
       <autors>
         <autor>Albert Camus</autor>
@@ -148,7 +148,7 @@
       <descripcio>Un ejecutivo recuerda su juventud en el Tokio de los sesenta tras escuchar a los Beatles, reviviendo el amor y la pérdida marcada por el suicidio de su amigo. Entre la fràgil Naoko y la vital Midori, la novela explora la dolorosa transición hacia la madurez.</descripcio>
     </llibre>
 
-    <llibre codi="LRL-73108-DU" ISBN="9780749386429" format="Tapa_dura" pagines="764" preu_adquisicio="12.54" idioma="en" recomanat="LRL-48291-DU" codi="LRL-64022-TO">
+    <llibre codi="LRL-73108-DU" ISBN="9780749386429" format="Tapa_dura" pagines="764" preu_adquisicio="12.54" idioma="en" recomanat="LRL-48291-DU" recomanat="LRL-64022-TO">
       <nom>The Magic Mountain</nom>
       <autors>
         <autor>Thomas Mann</autor>
