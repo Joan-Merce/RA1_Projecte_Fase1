@@ -21,8 +21,8 @@
             pagines CDATA #REQUIRED
             preu_adquisicio CDATA #IMPLIED
             comissio CDATA #IMPLIED
-            idioma (en | ca | es) #REQUIRED
-            recomanat IDREF #IMPLIED>
+            idioma (en | ca | es | fr | de | it | ru) #REQUIRED
+            recomanat IDREFS #IMPLIED>
 
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT autors (autor+)>
